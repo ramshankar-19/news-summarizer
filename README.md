@@ -245,7 +245,6 @@ The application will be available at:
 - Backend API: http://localhost:5000
 
 
-- Your Name - Developer
 
 ---
 
