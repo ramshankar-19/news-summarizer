@@ -1,0 +1,133 @@
+.home-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+  
+  .hero-section {
+    background: linear-gradient(135deg, #0a0a0a 0%, #303030 100%);
+    color: white;
+    padding: 40px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    max-width: 700px;
+    line-height: 1.5;
+  }
+  
+  .headlines-section {
+    margin-top: 40px;
+  }
+  
+  .headlines-section h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .news-timestamp {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .category-tag {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: #505050;
+    padding: 4px 0;
+    margin-top: 15px;
+  }
+  
+  .loading-spinner {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 30px auto;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #000;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  .load-more-btn {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 4px;
+    margin: 30px auto;
+    display: block;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .load-more-btn:hover {
+    background-color: #303030;
+  }
+  
+  .error-message {
+    background-color: #fff3f3;
+    border: 1px solid #ffcdd2;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 20px 0;
+    color: #d32f2f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .retry-button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+  }
+  
+  .retry-button:hover {
+    background-color: #b71c1c;
+  }
+  
+  .end-message {
+    text-align: center;
+    color: #666;
+    margin: 30px 0;
+    font-style: italic;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 1.8rem;
+    }
+    
+    .hero-content p {
+      font-size: 1rem;
+    }
+  }
+  
