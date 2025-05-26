@@ -244,15 +244,6 @@ The application will be available at:
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:5000
 
-## 📱 Screenshots
-
-*(Screenshots would be included here for the actual README)*
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👥 Contributors
 
 - Your Name - Developer
 
